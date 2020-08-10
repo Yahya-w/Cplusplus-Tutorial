@@ -1,0 +1,31 @@
+#include <iostream>				
+using namespace std;
+int main()
+{
+	setlocale(LC_ALL, "Turkish");
+	cout << "Hangi sayıdan gitmek istersin? :";
+	int x;
+	cin >> x;
+	cout << "Hangi sayıya gitmek istersin? :";
+	int y;
+	cin >> y;
+	cout << "Kaçar kaçar gitmek istersin? :";
+	int z;
+	cin >> z;
+	if (x > y)
+	{
+		for (; x > y; x -= z)
+		{
+			getchar();
+			cout << x;
+		}
+	}
+	else
+	{
+		for (; x < y; x += z)
+		{
+			getchar();
+			cout << x;
+		}
+	}
+}
