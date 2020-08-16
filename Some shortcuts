@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	cout << "New line :" <<'\n';  //or endl;
+	cout << "Beep voice :" << '\a';
+	cout << "Carriage return" << '\r';
+	cout << "Tab space :" << '\t';
+	cout << "Backspace :" << '\b';
+}
