@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+  system("Color ..");  // change character color or background color
+  system("pause");    // wait until you press a key on the keyboard
+  system("cls");     // clear the screen
+}
